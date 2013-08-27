@@ -1,0 +1,110 @@
+<script type="text/javascript">
+    var index = 2;
+    var maxIndex;
+    var slideTime = 8000;
+    var fadeInTime = 1000;
+    var t;
+
+    $(function() {
+        $(".foo ul li").each(function (index, domEle) {
+            $(domEle).addClass("c_" + (index+1));
+            maxIndex = index + 1;
+        });
+
+        $(".foo ul li").hide();
+        $(".foo ul li:first").fadeIn(fadeInTime);
+        $(".foo .prev").click(function () {
+            clearInterval(t);
+            showElement(index - 2);
+            t = setInterval("autoHide()", slideTime);
+        });
+
+        $(".foo .next").click(function () {
+            clearInterval(t);
+            showElement(index);
+            t = setInterval("autoHide()", slideTime);
+        });
+
+        t = setInterval("autoHide()", slideTime);
+    });
+
+    function showElement(pos) {
+        index = pos;
+        if (index <= 0) {
+            index = maxIndex;
+        }
+
+        if (index > maxIndex) {
+            index = 1;
+        }
+        $(".foo ul li").hide();
+        $(".foo .c_" + index).fadeIn(fadeInTime);
+        index = index + 1;
+    }
+
+    function autoHide() {
+        showElement(index);
+    }
+</script>
+
+<div class="foo">
+    <img src="/resources-equations/images/menu/previous.png" class="prev" alt="Prev" />
+    <img src="/resources-equations/images/menu/next.png" class ="next" alt="Next" />
+    <ul>
+        <li>
+            <div style="float:left"  class="image">
+                <img src="/resources-equations/images/home_folder/bankpo.png" class="courses" />
+            </div>
+            <div class="text">
+                <h4>Banking As A Career</h4>
+                <br />
+                <h3>Bank P.O.</h3>
+                <p>Bank Probationary Officer (PO) is a good profile post in any bank. Candidates can be recruited as bank PO after clearing the Bank PO Exam conducted by the respected bank. So it all depends on the performance in the exam, the better you perform, higher is the probability to cut through the competition</p>
+                <p>Bank PO is notation for Bank Probationary Officers which is an attractive offer for Young graduates after college in banking profession. After the elimination of BSRB the only way to enter into this bank PO for a well sought career is Probationary Officers Exams conducted by individual banks. Bank PO is a good job profile to start a career with.</p>
+                <h3>Bank Clerical</h3>
+                <p>Every transaction&mdash;from cashing a check to taking out a loan&mdash;requires   careful record keeping. Behind the scenes in every bank or savings and   loan association there are dozens of bank clerks, each an expert at   keeping one area of the bank's business running smoothly.</p>                 
+            </div>
+        </li>
+        <li>
+            <div class="image">
+                <img src="/resources-equations/images/home_folder/clerical.png" class="courses" />
+            </div>
+            <div class="text">
+                <h4>Undergraduate Entrance Exams</h4>
+                <br/>
+                <h3>Hotel Management</h3>
+                <p>The hospitality industry has grown by leaps and bounds in the past decade. Demand for trained manpower in this industry is immense.</p>
+                <h3>Bachelor Of Business Administration (BBA)</h3>
+                <p>The BBA program usually includes general business courses and advanced courses for specific concentrations. Alternative degree titles include Bachelor of Science in Business Administration (BSBA), and Bachelor in Management Studies (BMS).</p>
+                <h3>Law (CLAT)</h3>
+                <p>Lawyers act as both advocates and advisors on behalf of their clients. As advocates, they represent either the plaintiff or the defendant and advance their client&acute;s case through oral argument or written documents such as motions and briefs.</p>
+            </div>
+        </li>
+        <li>
+            <div class="image">
+                <img src="/resources-equations/images/home_folder/hm.png" class="courses" />
+            </div>
+            <div class="text">
+                <h4>Management Entrance Exams</h4>
+                <p>Management in all business areas and organizational activities are the acts of getting people together to accomplish desired goals and objectives. Management comprises planning, organizing, staffing, leading  or directing, and controlling an organization  (a group of one or more people or entities) or effort for the purpose of accomplishing a goal. Resourcing encompasses the deployment and manipulation of human resources, financial resources, technological resources, and natural resources.
+                    Because organizations can be viewed as systems, management can also be defined as human action, including design, to facilitate the production of useful outcomes from a system. This view opens the opportunity to 'manage' oneself, a pre-requisite to attempting to manage others</p>
+                <h3>CAT</h3>
+                <p>Common Admission Test (CAT) is an all-India test conducted by the Indian Institutes of Management (IIMs), considered to be the most prestigious B-schools of India.</p>
+                <h3>MAT</h3>
+                <p>The Management Aptitude Test helps evaluate critical thinking skills which are typically relevant to management positions, including the ability to make smart business decisions, analyze and solve situational problems, monitor a budget and supervise and communicate effectively with others.</p>
+            </div>
+        </li>
+
+        <li>
+            <div class="image">
+                <img src="/resources-equations/images/home_folder/post_grad.png" class="courses" />
+            </div>
+            <div class="text">
+                <h4>Postgraduate Entrance Exams</h4>
+                <p>There are in fact many benefits one can gain from having a post-grad degree. Regardless of the public misconceptions, these benefits are not mere myths.Having a post-grad degree would certainly increase your job prospects. Some would argue that having a post-grad degree would mean that a person is more specialized in a field of study, thus narrowing jobs to a specific field. The argument is not wrong, however.</p>
+                <h3>MCA</h3>
+                <p>Studying Master of Computer Applications makes you skilled in computational theory, programming, algorithm design, database management, and other related fields. </p>
+            </div>
+        </li>
+    </ul>
+</div>

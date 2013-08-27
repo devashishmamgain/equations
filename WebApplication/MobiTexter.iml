@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="mobitexter">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/web" relative="/" />
+        </webroots>
+      </configuration>
+      <facet type="google-app-engine" name="Google App Engine">
+        <configuration>
+          <password>dfc2dfcbdfc9dfc1dfcfdfcedfc8dfd3dfcddfc5dfc5dfcddfc6dfcf</password>
+          <files-to-enhance>
+            <file path="$MODULE_DIR$/src" />
+          </files-to-enhance>
+          <sdk-home-path>$MODULE_DIR$/../../../../../../../Development/Tools/appengine-java-sdk-1.7.5</sdk-home-path>
+          <email>devashish.mamgain@gmail.com</email>
+        </configuration>
+      </facet>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset1" name="Xml Application Context" removed="false">
+          <file>file://$MODULE_DIR$/web/WEB-INF/dispatcher-servlet.xml</file>
+          <file>file://$MODULE_DIR$/web/WEB-INF/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/build/web/WEB-INF/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/build/web/WEB-INF/dispatcher-servlet.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="1.6" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="lib" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library name="AppEngine Dev">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../../../../../Development/Tools/appengine-java-sdk-1.7.5/lib/user" />
+          <root url="file://$MODULE_DIR$/../../../../../../../Development/Tools/appengine-java-sdk-1.7.5/lib/shared" />
+          <root url="file://$MODULE_DIR$/../../../../../../../Development/Tools/appengine-java-sdk-1.7.5/lib/user/orm" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../../../../../Development/Tools/appengine-java-sdk-1.7.5/lib/user" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../../../../../../../Development/Tools/appengine-java-sdk-1.7.5/lib/shared" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../../../../../../Development/Tools/appengine-java-sdk-1.7.5/lib/user" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../../../../../../Development/Tools/appengine-java-sdk-1.7.5/lib/user/orm" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../../../../../../Development/Tools/appengine-java-sdk-1.7.5/lib/user" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+

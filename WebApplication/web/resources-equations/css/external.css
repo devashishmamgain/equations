@@ -1,0 +1,8 @@
+table.gadget {
+    width: 100%;
+}
+
+.gadget td {
+    background-color: #595E6F;
+    background-image: url(/resources-equations/images/page_level/h1_bak.png);
+}

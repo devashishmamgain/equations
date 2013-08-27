@@ -1,0 +1,68 @@
+#bottom_snippet #bottom_snippet_right a{
+    margin-top: 40px;
+    padding: 5px;
+    color: #ffffff;
+    text-align: justify;
+    font-size: 60%;
+    font-family: Arial,Helvetica,sans-serif;
+    text-decoration: none;
+    border-left-width: 1px;
+    border-left-color: #cccccc;
+    border-left-style: solid;
+    border-right: none;
+}
+
+#bottom_snippet #bottom_snippet_right a:link{
+    margin-top: 40px;
+    padding: 5px;
+    color: #ffffff;
+    text-align: justify;
+    font-family: Arial,Helvetica,sans-serif;
+    text-decoration: none;
+    border-left-width: 1px;
+    border-left-color: #cccccc;
+    border-left-style: solid;
+}
+
+#bottom_snippet #bottom_snippet_right a:visited {
+    margin-top: 40px;
+    padding: 5px;
+    color: #ffffff;
+    text-align: justify;
+    font-family: Arial,Helvetica,sans-serif;
+    text-decoration: none;
+    border-left-width: 1px;
+    border-left-color: #cccccc;
+    border-left-style: solid;
+}
+
+#bottom_snippet #bottom_snippet_right a:hover {
+text-decoration: underline;
+}
+
+#bottom_snippet #bottom_snippet_right {
+    width: 100%;
+    position: relative;
+    background-color: #83c7da;
+    height: 120px;
+    float: left;
+    color: #000000;
+    text-align: left;
+    background-image: url(/resources-equations/images/menu/bottom.png);
+    background-repeat: repeat-x;
+}
+
+#bottom_snippet #bottom_snippet_right #botton_snippet_left {
+    width: 30%;
+    position: relative;
+    height: 120px;
+    float: left;
+    font-size: 80%;
+    color: #ffffff;
+    background-image: url(/resources-equations/images/menu/bottom.png);
+    background-repeat: repeat-x;
+}
+
+#bottom_snippet #bottom_snippet_right img{
+    position: relative;
+}

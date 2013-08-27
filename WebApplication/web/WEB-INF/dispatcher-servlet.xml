@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="in.co.equations,com.thenextpointer" />
+
+    <bean class="com.thenextpointer.db.PersistenceService" />
+<!--
+    <bean class="in.co.equations.modules.enquiry.EnquiryValidator" scope="request" />
+    <bean id="enquiryCrudService" class="in.co.equations.modules.enquiry.EnquiryCrudService" />
+    <bean id="enquiryPersistenceService" class="com.thenextpointer.db.PersistenceService">
+        <property name="crudService" ref="enquiryCrudService" />
+    </bean>
+    <bean class="in.co.equations.modules.enquiry.EnquiryService" scope="request">
+        <property name="persistenceService" ref="enquiryPersistenceService" />
+    </bean>
+-->
+
+    <bean id="notificationController" class="in.co.equations.modules.notification.NotificationController" scope="prototype">
+        <property name="notificationService" ref="notificationService" />
+        <property name="notificationTypeService" ref="notificationTypeService" />
+    </bean>
+    <bean id="eqUserController" class="in.co.equations.modules.user.EqUserController">
+        <property name="eqUserService" ref="eqUserService" />
+        <property name="courseService" ref="courseService" />
+        <property name="roleService" ref="roleService" />
+    </bean>
+     <bean id="enquiryController" class="in.co.equations.modules.enquiry.EnquiryController">
+        <property name="enquiryService" ref="enquiryService" />
+    </bean>
+    <bean id="enquiryListController" class="in.co.equations.modules.enquiry.EnquiryListController">
+        <property name="enquiryService" ref="enquiryService" />
+    </bean>
+
+  
+    <!--
+    <bean id="messageSource"
+        class="org.springframework.context.support.ResourceBundleMessageSource">
+        <property name="basename" value="in/co/equations/properties/Customer" />
+    </bean>
+    -->
+
+    <bean id="viewResolver"
+          class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+          p:prefix="/views/" p:suffix=".jsp" >
+        <property name="viewClass" value="org.springframework.web.servlet.view.JstlView" />
+    </bean>
+</beans>

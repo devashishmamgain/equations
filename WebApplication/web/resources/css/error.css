@@ -1,0 +1,14 @@
+/* 
+    Document   : error
+    Created on : Mar 29, 2013, 11:17:01 PM
+    Author     : Anuranjit
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.errorDetail{
+    color: #F2F2F2;
+}
+.errorBack{
+    background-color: #000;
+}

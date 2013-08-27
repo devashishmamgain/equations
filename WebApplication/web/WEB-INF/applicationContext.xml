@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+
+       http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+
+       http://www.springframework.org/schema/context
+
+       http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <context:annotation-config/>
+
+    <bean id="contextApplicationContextProvider" class="com.thenextpointer.spring.ApplicationContextProvider"></bean>
+
+    <bean id="taskService" class="in.co.equations.common.modules.taskqueue.TaskService" />
+    <bean id="datastore" class="com.thenextpointer.db.Datastore" scope="request" />
+    <bean id="instantMessageService" class="in.co.equations.common.modules.channel.InstantMessageService" />
+    
+    <bean id="crudService" class="com.thenextpointer.crud.CrudServiceImpl">
+        <property name="type">
+            <value>java.lang.Object</value>
+        </property>
+    </bean>
+
+    <bean id="notificationType" class="in.co.equations.modules.notificationtype.NotificationType" scope="request" />
+    <bean id="notificationTypeCrudService" class="in.co.equations.modules.notificationtype.NotificationTypeCrudService" />
+    <bean id="notificationTypeListService" class="com.thenextpointer.pagination.ListServiceImpl">
+        <property name="type">
+            <value>in.co.equations.modules.notificationtype.NotificationType</value>
+        </property>
+    </bean>
+    <bean id="notificationTypeCrudAction" class="com.thenextpointer.crud.CrudAction" scope="request">
+        <property name="entity" ref="notificationType" />
+        <property name="crudService" ref="notificationTypeCrudService" />
+    </bean>
+    <bean id="notificationTypeListAction" class="com.thenextpointer.pagination.ListAction" scope="request">
+        <property name="entity" ref="notificationType" />
+        <property name="listService" ref="notificationTypeListService" />
+    </bean>
+    <bean id="notificationTypePersistenceService" class="com.thenextpointer.db.PersistenceService">
+        <property name="crudService" ref="notificationTypeCrudService" />
+        <property name="listService" ref="notificationTypeListService" />
+    </bean>
+    <bean id="notificationTypeService" class="in.co.equations.modules.notificationtype.NotificationTypeService">
+        <property name="persistenceService" ref="notificationTypePersistenceService" />
+    </bean>
+
+    <bean id="course" class="in.co.equations.modules.course.Course" scope="request" />
+    <bean id="courseCrudService" class="in.co.equations.modules.course.CourseCrudService" />
+    <bean id="courseListService" class="com.thenextpointer.pagination.ListServiceImpl">
+        <property name="type">
+            <value>in.co.equations.modules.course.Course</value>
+        </property>
+    </bean>
+    <bean id="courseCrudAction" class="com.thenextpointer.crud.CrudAction" scope="request">
+        <property name="entity" ref="course" />
+        <property name="crudService" ref="courseCrudService" />
+    </bean>
+    <bean id="courseListAction" class="com.thenextpointer.pagination.ListAction" scope="request">
+        <property name="entity" ref="course" />
+        <property name="listService" ref="courseListService" />
+    </bean>
+    <bean id="coursePersistenceService" class="com.thenextpointer.db.PersistenceService">
+        <property name="crudService" ref="courseCrudService" />
+        <property name="listService" ref="courseListService" />
+    </bean>
+    <bean id="courseService" class="in.co.equations.modules.course.CourseService">
+        <property name="persistenceService" ref="coursePersistenceService" />
+    </bean>
+    
+    <bean id="enquiry" class="in.co.equations.modules.enquiry.Enquiry" scope="request" />
+    <bean id="enquiryCrudService" class="in.co.equations.modules.enquiry.EnquiryCrudService" />
+    <bean id="enquiryListService" class="com.thenextpointer.pagination.ListServiceImpl">
+        <property name="type">
+            <value>in.co.equations.modules.enquiry.Enquiry</value>
+        </property>
+    </bean>
+    <bean id="enquiryCrudAction" class="com.thenextpointer.crud.CrudAction" scope="request">
+        <property name="entity" ref="enquiry" />
+        <property name="crudService" ref="enquiryCrudService" />
+    </bean>
+    <bean id="enquiryListAction" class="com.thenextpointer.pagination.ListAction" scope="request">
+        <property name="entity" ref="enquiry" />
+        <property name="listService" ref="enquiryListService" />
+    </bean>
+    <bean id="enquiryPersistenceService" class="com.thenextpointer.db.PersistenceService">
+        <property name="crudService" ref="enquiryCrudService" />
+        <property name="listService" ref="enquiryListService" />
+    </bean>
+    <bean id="enquiryService" class="in.co.equations.modules.enquiry.EnquiryService">
+        <property name="persistenceService" ref="enquiryPersistenceService" />
+    </bean>
+
+    <bean id="sms" class="in.co.equations.modules.sms.Sms" scope="request" />
+    <bean id="smsCrudService" class="in.co.equations.modules.sms.SmsCrudService" />
+    <bean id="smsListService" class="com.thenextpointer.pagination.ListServiceImpl">
+        <property name="type">
+            <value>in.co.equations.modules.sms.Sms</value>
+        </property>
+    </bean>
+    <bean id="smsCrudAction" class="com.thenextpointer.crud.CrudAction" scope="request">
+        <property name="entity" ref="sms" />
+        <property name="crudService" ref="smsCrudService" />
+    </bean>
+    <bean id="smsListAction" class="com.thenextpointer.pagination.ListAction" scope="request">
+        <property name="entity" ref="sms" />
+        <property name="listService" ref="smsListService" />
+    </bean>
+    <bean id="smsPersistenceService" class="com.thenextpointer.db.PersistenceService">
+        <property name="crudService" ref="smsCrudService" />
+        <property name="listService" ref="smsListService" />
+    </bean>
+    <bean id="smsService" class="in.co.equations.modules.sms.SmsService">
+        <property name="persistenceService" ref="smsPersistenceService" />
+        <property name="eqUserService" ref="eqUserService" />
+    </bean>
+
+    <bean id="notification" class="in.co.equations.modules.notification.Notification" scope="request" />
+    <bean id="notificationCrudService" class="in.co.equations.modules.notification.NotificationCrudService" />
+    <bean id="notificationListService" class="com.thenextpointer.pagination.ListServiceImpl">
+        <property name="type">
+            <value>in.co.equations.modules.notification.Notification</value>
+        </property>
+    </bean>
+    <bean id="notificationCrudAction" class="in.co.equations.modules.notification.NotificationCrudAction" scope="request">
+        <property name="entity" ref="notification" />
+        <property name="crudService" ref="notificationCrudService" />
+    </bean>
+    <bean id="jobNotificationListAction" class="in.co.equations.modules.notification.NotificationListAction" scope="request">
+        <property name="type" value="1" />
+        <property name="entity" ref="notification" />
+        <property name="listService" ref="notificationListService" />
+    </bean>
+    <bean id="resultNotificationListAction" class="in.co.equations.modules.notification.NotificationListAction" scope="request">
+        <property name="type" value="2" />
+        <property name="entity" ref="notification" />
+        <property name="listService" ref="notificationListService" />
+    </bean>
+    <bean id="notificationListAction" class="in.co.equations.modules.notification.NotificationListAction" scope="request">
+        <property name="entity" ref="notification" />
+        <property name="listService" ref="notificationListService" />
+    </bean>
+    <bean id="notificationPersistenceService" class="com.thenextpointer.db.PersistenceService">
+        <property name="crudService" ref="notificationCrudService" />
+        <property name="listService" ref="notificationListService" />
+    </bean>
+    <bean id="notificationService" class="in.co.equations.modules.notification.NotificationService">
+        <property name="persistenceService" ref="notificationPersistenceService" />
+    </bean>
+
+    <bean id="role" class="in.co.equations.modules.role.Role" scope="request" />
+    <bean id="roleCrudService" class="in.co.equations.modules.role.RoleCrudService" />
+    <bean id="roleListService" class="com.thenextpointer.pagination.ListServiceImpl">
+        <property name="type">
+            <value>in.co.equations.modules.role.Role</value>
+        </property>
+    </bean>
+    <bean id="roleCrudAction" class="com.thenextpointer.crud.CrudAction" scope="request">
+        <property name="entity" ref="role" />
+        <property name="crudService" ref="roleCrudService" />
+    </bean>
+    <bean id="roleListAction" class="com.thenextpointer.pagination.ListAction" scope="request">
+        <property name="entity" ref="role" />
+        <property name="listService" ref="roleListService" />
+    </bean>
+    <bean id="rolePersistenceService" class="com.thenextpointer.db.PersistenceService">
+        <property name="crudService" ref="roleCrudService" />
+        <property name="listService" ref="roleListService" />
+    </bean>
+    <bean id="roleService" class="in.co.equations.modules.role.RoleService">
+        <property name="persistenceService" ref="rolePersistenceService" />
+    </bean>
+
+    <bean id="eqUser" class="in.co.equations.modules.user.EqUser" scope="request" />
+    <bean id="eqUserCrudService" class="in.co.equations.modules.user.EqUserCrudService" />
+    <bean id="eqUserListService" class="com.thenextpointer.pagination.ListServiceImpl">
+        <property name="type">
+            <value>in.co.equations.modules.user.EqUser</value>
+        </property>
+    </bean>
+    <bean id="eqUserCrudAction" class="com.thenextpointer.crud.CrudAction" scope="request">
+        <property name="entity" ref="eqUser" />
+        <property name="crudService" ref="eqUserCrudService" />
+    </bean>
+    <bean id="eqUserListAction" class="com.thenextpointer.pagination.ListAction" scope="request">
+        <property name="entity" ref="eqUser" />
+        <property name="listService" ref="eqUserListService" />
+    </bean>
+    <bean id="eqUserPersistenceService" class="com.thenextpointer.db.PersistenceService">
+        <property name="crudService" ref="eqUserCrudService" />
+        <property name="listService" ref="eqUserListService" />
+    </bean>
+    <bean id="eqUserService" class="in.co.equations.modules.user.EqUserService">
+        <property name="persistenceService" ref="eqUserPersistenceService" />
+    </bean>
+
+    <!--  Email properties -->
+    <bean id="eqEmail"  class="in.co.equations.modules.mail.EqEmail" scope="request">
+    </bean>
+    <bean id="templateMessage" class="org.springframework.mail.SimpleMailMessage">
+    </bean>
+    <bean id="sendMailAction" class="in.co.equations.modules.mail.sendMailAction" scope="request">
+        <property name="templateMessage" ref="templateMessage"/>
+        <property name="eqEmail" ref="eqEmail" />
+    </bean>
+
+    <bean id="note" class="in.co.equations.modules.note.Note" scope="request" />
+    <bean id="noteCrudService" class="in.co.equations.modules.note.NoteCrudService" />
+    <bean id="noteListService" class="com.thenextpointer.pagination.ListServiceImpl">
+        <property name="type">
+            <value>in.co.equations.modules.note.Note</value>
+        </property>
+    </bean>
+    <bean id="noteCrudAction" class="com.thenextpointer.crud.CrudAction" scope="request">
+        <property name="entity" ref="note" />
+        <property name="crudService" ref="noteCrudService" />
+    </bean>
+    <bean id="noteListAction" class="com.thenextpointer.pagination.ListAction" scope="request">
+        <property name="entity" ref="note" />
+        <property name="listService" ref="noteListService" />
+    </bean>
+    <bean id="notePersistenceService" class="com.thenextpointer.db.PersistenceService">
+        <property name="crudService" ref="noteCrudService" />
+        <property name="listService" ref="noteListService" />
+    </bean>
+    <bean id="noteService" class="in.co.equations.modules.note.NoteService">
+        <property name="persistenceService" ref="notePersistenceService" />
+    </bean>
+
+    <bean id="noteCategory" class="in.co.equations.modules.note.NoteCategory" scope="request" />
+    <bean id="noteCategoryCrudService" class="in.co.equations.modules.note.NoteCategoryCrudService" />
+    <bean id="noteCategoryListService" class="com.thenextpointer.pagination.ListServiceImpl">
+        <property name="type">
+            <value>in.co.equations.modules.note.NoteCategory</value>
+        </property>
+    </bean>
+    <bean id="noteCategoryCrudAction" class="com.thenextpointer.crud.CrudAction" scope="request">
+        <property name="entity" ref="noteCategory" />
+        <property name="crudService" ref="noteCategoryCrudService" />
+    </bean>
+    <bean id="noteCategoryListAction" class="com.thenextpointer.pagination.ListAction" scope="request">
+        <property name="entity" ref="noteCategory" />
+        <property name="listService" ref="noteCategoryListService" />
+    </bean>
+    <bean id="noteCategoryPersistenceService" class="com.thenextpointer.db.PersistenceService">
+        <property name="crudService" ref="noteCategoryCrudService" />
+        <property name="listService" ref="noteCategoryListService" />
+    </bean>
+    <bean id="noteCategoryService" class="in.co.equations.modules.note.NoteCategoryService">
+        <property name="persistenceService" ref="noteCategoryPersistenceService" />
+    </bean>
+    
+      <bean id="authService" class="in.co.equations.common.modules.auth.AuthService" />
+  
+    <bean id="mailService" class="in.co.equations.common.modules.mail.MailService" />
+ 
+</beans>
