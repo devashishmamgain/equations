@@ -8,7 +8,7 @@
         <title>Equations</title>
     </head>
     <body>
-        <jsp:include page = "/includes/header.jsp" />            
+        <jsp:include page = "/includes/header.jsp" />
         <div id="main_content">
             <jsp:include page = "/includes/home.html" />
             <jsp:include page = "/includes/footer.jsp">
