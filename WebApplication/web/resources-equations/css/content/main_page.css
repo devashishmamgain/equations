@@ -3,8 +3,8 @@
 #main_content {
 	clear: both;
 	float: none;
-	width: 100%;
-	margin-top: 20px;
+	width: 90%;
+	margin-top: 10px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 0px;
@@ -18,9 +18,9 @@
 	background-repeat: repeat-x;
 	background-color: #595E6F;
 	margin-top: 0px;
-	padding-top: 8px;
+	padding-top: 0px;
 	padding-right: 0px;
-	padding-bottom: 8px;
+	padding-bottom: 0px;
 	padding-left: 10px;
 	border-bottom-width: 1px;
 	border-bottom-style: groove;

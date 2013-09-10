@@ -1,6 +1,7 @@
 #header{
     position: relative;
-    width: 100%;
+    width: 90%;
+    margin:auto;
     height: 125px;
     background-repeat: repeat-x;
     background-color: #ffffff;
