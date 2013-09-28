@@ -12,12 +12,11 @@
 */
 
 .foo{
-    background-image: url(/resources-equations/images/home_folder/caro_back.png);
+    background-image: url(/resources/images/home_folder/caro_back.png);
     padding: 2%;
     margin-bottom: 20px;
     background-repeat:repeat-x;
-    min-height: 400px;
-    height: 100%;
+    min-height: 500px;
     background-color: #e8e8e8;
 }
 

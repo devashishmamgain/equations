@@ -129,13 +129,13 @@
     margin-right: 2px;
 }
 .active {/*TODO: change this change*/
-    background-image: url(/resources-equations/images/page_level/h3_bak.png);
+    background-image: url(../resources/images/page_level/h3_bak.png);
 }
 
 #main_menu_left img{
 }#main_logo {
     height: 120px;
-    background-image: url(/resources-equations/images/logos/logo1.png);
+    background-image: url(../resources/images/logos/logo1.png);
     width: 305px;
     background-repeat: no-repeat;
     float: left;
