@@ -26,8 +26,8 @@ session.setAttribute("loggedIn", loggedIn);
 <link href="../resources/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
 
 <div style="position: relative;width: 100%;margin:auto;height: 125px;background-repeat: repeat-x;background-color: #ffffff;
-    background-image: url(/resources/images/menu/header.png);background-position: right;">
-    <div style=" height: 120px;background-image: url(/resources/images/logos/logo1.png);width: 305px; background-repeat: no-repeat;
+    background-image: url(../resources/images/menu/header.png);background-position: right;">
+    <div style=" height: 120px;background-image: url(../resources/images/logos/logo1.png);width: 305px; background-repeat: no-repeat;
     float: left;    margin-top: 3px;    margin-left: 10px;"></div>
     <script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&lang=en"></script>
 </div>
