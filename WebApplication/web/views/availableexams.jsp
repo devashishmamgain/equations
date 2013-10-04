@@ -16,7 +16,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>EXAM PAPERS</title>
 <jsp:include page = "/includes/resources_top.html" />
 <style type="text/css" title="currentStyle">
 @import "../css/demo_page.css";
@@ -49,7 +49,7 @@
 <script src="../jquery-ui.js" type="text/javascript"></script>
 <script class="jsbin"
 	src="http://datatables.net/download/build/jquery.dataTables.nightly.js"></script>
-
+<script src="resources/bootstrap/js/bootstrap.js"></script>
 
 <script type="text/javascript">
 	window.history.forward();
@@ -83,12 +83,12 @@
 <body onload="noBack();" onpageshow="if (event.persisted) noBack();"
 	onunload="">
     <jsp:include page = "/includes/header.jsp" />
-	<a href="createpaper.form" style="float: right">CreatePaper</a>
+    <a href="createpaper.form" style="float:left;"><input type="button" value="CREATE PAPER" /></a>
 
 
 	<form:form>
 
-		<table cellpadding="0" cellspacing="0" border="0" class="display"
+		<table cellpadding="0" cellspacing="4" border="0" class="display"
 			id="example">
 			<thead>
 				<tr>
