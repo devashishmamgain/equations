@@ -26,6 +26,9 @@
 @import "../css/themes/base/jquery-ui.css";
 
 @import "../css/themes/smoothness/jquery-ui-1.7.2.custom.css";
+
+@import "/resources/bootstrap/css/bootstrap.css";
+
 </style>
 
 
@@ -49,7 +52,7 @@
 <script src="../jquery-ui.js" type="text/javascript"></script>
 <script class="jsbin"
 	src="http://datatables.net/download/build/jquery.dataTables.nightly.js"></script>
-<script src="resources/bootstrap/js/bootstrap.js"></script>
+<script src="/resources/bootstrap/js/bootstrap.js"></script>
 
 <script type="text/javascript">
 	window.history.forward();
@@ -83,7 +86,7 @@
 <body onload="noBack();" onpageshow="if (event.persisted) noBack();"
 	onunload="">
     <jsp:include page = "/includes/header.jsp" />
-    <a href="createpaper.form" style="float:left;"><input type="button" value="CREATE PAPER" /></a>
+    <a href="createpaper.form" class="pull-left"><button class="btn btn-primary">Create Exam</button></a>
 
 
 	<form:form>
