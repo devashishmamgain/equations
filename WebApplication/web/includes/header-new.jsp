@@ -20,14 +20,13 @@ if (userSession != null && userSession.getEqUser() != null) {
 
 session.setAttribute("loggedIn", loggedIn);
 %>
-
-
-<link href="../resources/bootstrap/css/bootstrap.css" rel="stylesheet">
-<link href="../resources/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+<link rel="stylesheet" href="/resources/bootstrap/css/bootstrap.min.css">
+<script  type="text/javascript"  src="/resources/bootstrap/js/jquery-1.js"></script>
+<script  type="text/javascript"  src="/resources/bootstrap/js/bootstrap.min.js"></script>
 
 <div style="position: relative;width: 100%;margin:auto;height: 125px;background-repeat: repeat-x;background-color: #ffffff;
-    background-image: url(../resources/images/menu/header.png);background-position: right;">
-    <div style=" height: 120px;background-image: url(../resources/images/logos/logo1.png);width: 305px; background-repeat: no-repeat;
+    background-image: url(/resources/images/menu/header.png);background-position: right;">
+    <div style=" height: 120px;background-image: url(/resources/images/logos/logo1.png);width: 305px; background-repeat: no-repeat;
     float: left;    margin-top: 3px;    margin-left: 10px;"></div>
     <script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&lang=en"></script>
 </div>
@@ -49,12 +48,12 @@ session.setAttribute("loggedIn", loggedIn);
 		<li><a href='/views/newfaculty.jsp'>Faculty</a></li>
 		<li><a href='/views/newmission.jsp'>Mission</a></li>
                 <li><a href="">Teaching Methodology</a></li>
-		<li><a href="#">Enquiry/Feedback</a></li>
+		<li><a href="#">Feedback</a></li>
 		<li><a href="#">Latest Jobs</a></li>
 		<li><a href="#">Exam Result</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <c:if test="${loggedIn == 'true'}">
+               <c:if test="${loggedIn == 'true'}">  
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                   <ul class="dropdown-menu">
@@ -73,12 +72,11 @@ session.setAttribute("loggedIn", loggedIn);
                     <li><a href="#">Sign Out</a></li>
                   </ul>
                 </li>
+               </c:if>
                 </ul>
-                </c:if>
+              
             </div><!--/.nav-collapse -->
           </div><!-- /.navbar-inner -->
         </div><!-- /.navbar -->
-           <script  type="text/javascript"  src="../resources/bootstrap/js/jquery.js"></script>
-    <script  type="text/javascript"  src="../resources/bootstrap/js/bootstrap.js"></script>
-    <script  type="text/javascript"  src="../resources/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../resources/bootstrap/js/bootstrap-dropdown.js"></script>
+        
+    
