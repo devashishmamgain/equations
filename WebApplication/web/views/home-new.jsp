@@ -14,15 +14,15 @@
         <title>Home Page</title>
     </head>
     <body style="margin: 0;padding: 0;">
-        <div style="width:90%; height:160px; margin:auto; position:relative;">
-            <jsp:include page = "../includes/header-new.jsp" />
+        <div style="width:90%; height:170px; margin:auto; position:relative;">
+            <jsp:include page = "/includes/header-new.jsp" />
         </div>
         <div style="width:90%; height:auto; margin:auto; position:relative;">
-            <jsp:include page = "../includes/home-new.html" />
+            <jsp:include page = "/includes/home-new.html" />
 
         </div>
         <div style="width:90%; height:120px; margin:auto; position:relative;">
-            <jsp:include page = "../includes/footer-new.jsp" />
+            <jsp:include page = "/includes/footer-new.jsp" />
 
         </div>
     </body>
