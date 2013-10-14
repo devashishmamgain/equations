@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" href="/resources/css/content/bottom.css" />
 <div id="bottom_snippet">
     <div id="bottom_snippet_right">
         <div id="botton_snippet_left">
@@ -14,7 +15,7 @@
                     <tr>
                         <td>Address</td>
                         <td>Equations Institute,<br />
-                            233 Karanpur,<br />                           
+                            233 Karanpur,<br />
                             Dehradun,
                             Uttarakhand</td>
                     </tr>
@@ -36,6 +37,6 @@
     </div>
 </div>
 
-<script type="text/javascript">    
+<script type="text/javascript">
     $(".${param.menu}").addClass('active');
 </script>

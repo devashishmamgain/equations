@@ -1,21 +1,29 @@
-<%@ page isELIgnored="false" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%-- 
+    Document   : home-new
+    Created on : Sep 24, 2013, 10:44:44 AM
+    Author     : AASHISH
+--%>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
     <head>
-        <jsp:include page = "/includes/resources_top.html" />
-        <title>Equations</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Home Page</title>
     </head>
-    <body>
-        <jsp:include page = "/includes/header.jsp" />
-        <div id="main_content">
-            <jsp:include page = "/includes/home.html" />
-            <jsp:include page = "/includes/footer.jsp">
-                <jsp:param name="menu" value="menu_home" />
-            </jsp:include>
+    <body style="margin: 0;padding: 0;">
+        <div style="width:90%; height:170px; margin:auto; position:relative;">
+            <jsp:include page = "/includes/header.jsp" />
         </div>
-        <jsp:include page = "/includes/resources_bottom.html" />
-        <jsp:include page = "/includes/analytics.html" />
+        <div style="width:90%; height:auto; margin:auto; position:relative;">
+            <jsp:include page = "/includes/home.html" />
+
+        </div>
+        <div style="width:90%; height:120px; margin:auto; position:relative;">
+            <jsp:include page = "/includes/footer.jsp" />
+
+        </div>
     </body>
 </html>
