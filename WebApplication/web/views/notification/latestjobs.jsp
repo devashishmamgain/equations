@@ -11,15 +11,15 @@
     <head>
         <title>Job Openings</title>
         <link rel="stylesheet" type="text/css" href="/resources/css/main.css" />
-        <link rel="stylesheet" type="text/css" href="/resources-equations/scripts/css/jquery-ui-1.8.1.custom.css" />
+        <link rel="stylesheet" type="text/css" href="/resources/js/lib/jquery-ui-1.9.2.custom/css/smoothness/jquery-ui-1.9.2.custom.min.css" />
         <link rel="stylesheet" type="text/css" href="/resources/css/grid.css" />
 
-        <script type="text/javascript" src="/resources-equations/scripts/js/jquery-1.4.2.min.js"></script>
-        <script type="text/javascript" src="/resources-equations/scripts/js/jquery-ui-1.8.1.custom.min.js"></script>
-        <script type="text/javascript" src="/resources-equations/scripts/jquery.corner.js"></script>
-        <script type="text/javascript" src="/resources-equations/scripts/menu_js/borders_js.js"></script>
-        <script type="text/javascript" src="/resources-equations/scripts/custom_js/main_content.js"></script>
-        <script type="text/javascript" src ="/resources-equations/scripts/js/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="/resources/js/lib/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="/resources/js/lib/jquery-ui-1.9.2.custom/js/jquery-ui-1.9.2.custom.min.js"></script>
+        <script type="text/javascript" src="/resources/js/lib/jquery.corner.js"></script>
+        
+        
+        <script type="text/javascript" src ="/resources/js/lib/jquery.validate.min.js"></script>
         <script type="text/javascript" src ="/resources/js/base/jquery.ui.widget.min.js"></script>
 
         <script type="text/javascript">

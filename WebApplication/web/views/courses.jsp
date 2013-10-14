@@ -11,12 +11,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
 
-        <script type="text/javascript" src="/resources-equations/scripts/js/jquery-1.4.2.min.js"></script>
-        <script type="text/javascript" src="/resources-equations/scripts/js/jquery-ui-1.8.1.custom.min.js"></script>
-        <script type="text/javascript" src="/resources-equations/scripts/jquery.corner.js"></script>
-        <script type="text/javascript" src="/resources-equations/scripts/menu_js/borders_js.js"></script>
-        <script type="text/javascript" src="/resources-equations/scripts/custom_js/main_content.js"></script>
-        <script type="text/javascript" src ="/resources-equations/scripts/js/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="/resources/js/lib/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="/resources/js/lib/jquery-ui-1.9.2.custom/js/jquery-ui-1.9.2.custom.min.js"></script>
+        <script type="text/javascript" src="/resources/js/lib/jquery.corner.js"></script>
+        
+        
+        <script type="text/javascript" src ="/resources/js/lib/jquery.validate.min.js"></script>
 
         <title>Equations Courses</title>
     </head>

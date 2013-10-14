@@ -10,13 +10,13 @@
     <head>
         <title>Notification Type List</title>
         <script language="JavaScript" type="text/javascript" src="/resources/jquery-1.1.4.js"></script>
-        <script type="text/javascript" src="/resources-equations/scripts/jquery.corner.js"></script>
-        <script type="text/javascript" src="/resources-equations/scripts/menu_js/borders_js.js"></script>
-        <script type="text/javascript" src="/resources-equations/scripts/custom_js/main_content.js"></script>
-        <script type="text/javascript" src ="/resources-equations/scripts/js/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="/resources/js/lib/jquery.corner.js"></script>
+        
+        
+        <script type="text/javascript" src ="/resources/js/lib/jquery.validate.min.js"></script>
         <link rel="stylesheet" type="text/css" href="/resources/css/grid.css" />
         <link rel="stylesheet" type="text/css" href="/resources/css/main.css" />
-        <link rel="stylesheet" type="text/css" href="/resources-equations/scripts/css/jquery-ui-1.8.1.custom.css" />
+        <link rel="stylesheet" type="text/css" href="/resources/js/lib/jquery-ui-1.9.2.custom/css/smoothness/jquery-ui-1.9.2.custom.min.css" />
         
     </head>
     <body>
