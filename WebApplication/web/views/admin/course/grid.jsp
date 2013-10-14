@@ -14,9 +14,9 @@
 <html>
     <head>
         <title>Course List</title>
-        <link rel="stylesheet" type="text/css" href="/resources-equations/css/main.css" />
+        <link rel="stylesheet" type="text/css" href="/resources/css/main.css" />
         <link rel="stylesheet" type="text/css" href="/resources-equations/scripts/css/jquery-ui-1.8.1.custom.css" />
-        <link rel="stylesheet" type="text/css" href="/resources-equations/css/grid.css" />
+        <link rel="stylesheet" type="text/css" href="/resources/css/grid.css" />
         <script type="text/javascript" src="/resources-equations/scripts/jquery.corner.js"></script>
         <script type="text/javascript" src="/resources-equations/scripts/menu_js/borders_js.js"></script>
         <script type="text/javascript" src="/resources-equations/scripts/custom_js/main_content.js"></script>

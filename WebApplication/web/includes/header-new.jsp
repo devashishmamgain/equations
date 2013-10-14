@@ -21,7 +21,7 @@ if (userSession != null && userSession.getEqUser() != null) {
 session.setAttribute("loggedIn", loggedIn);
 %>
 <link rel="stylesheet" href="/resources/bootstrap/css/bootstrap.min.css">
-<script  type="text/javascript"  src="/resources/bootstrap/js/jquery-1.js"></script>
+<script  type="text/javascript"  src="/resources/js/lib/jquery-1.10.2.min.js"></script>
 <script  type="text/javascript"  src="/resources/bootstrap/js/bootstrap.min.js"></script>
 
 <div style="position: relative;width: 100%;margin:auto;height: 125px;background-repeat: repeat-x;background-color: #ffffff;

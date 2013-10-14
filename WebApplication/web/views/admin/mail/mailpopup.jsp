@@ -24,7 +24,7 @@
         <script type="text/javascript" src ="/resources-equations/scripts/js/jquery.validate.min.js"></script>
         <script type="text/javascript" language="javascript" src="/resources/js/tinymce/tiny_mce.js"></script>
         <link rel="stylesheet" type="text/css" href="/resources-equations/scripts/css/jquery-ui-1.8.1.custom.css" />
-        <link rel="stylesheet" type="text/css" href="/resources-equations/css/grid.css" />
+        <link rel="stylesheet" type="text/css" href="/resources/css/grid.css" />
        
     </head>
     <body bgcolor="#e8e8e8">

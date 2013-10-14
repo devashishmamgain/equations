@@ -27,7 +27,7 @@
 
 @import "../css/themes/smoothness/jquery-ui-1.7.2.custom.css";
 
-@import "/resources/bootstrap/css/bootstrap.css";
+@import "/resources/bootstrap/css/bootstrap.min.css";
 
 </style>
 
@@ -52,7 +52,7 @@
 <script src="../jquery-ui.js" type="text/javascript"></script>
 <script class="jsbin"
 	src="http://datatables.net/download/build/jquery.dataTables.nightly.js"></script>
-<script src="/resources/bootstrap/js/bootstrap.js"></script>
+<script src="/resources/bootstrap/js/bootstrap.min.js"></script>
 
 <script type="text/javascript">
 	window.history.forward();

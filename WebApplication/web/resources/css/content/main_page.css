@@ -25,7 +25,7 @@
 	border-bottom-width: 1px;
 	border-bottom-style: groove;
 	border-bottom-color: #FCFCFC;
-        background-image: url(/resources-equations/images/page_level/h1_bak.png);
+        background-image: url(/resources/images/page_level/h1_bak.png);
 }
 
 
@@ -112,7 +112,7 @@
 	padding-right: 0px;
 	padding-bottom: 8px;
 	padding-left: 10px;
-        background-image: url(/resources-equations/images/page_level/h1_bak.png);
+        background-image: url(/resources/images/page_level/h1_bak.png);
 }
 
 #main_content p {
@@ -134,7 +134,7 @@
 	padding-right: 0px;
 	padding-bottom: 8px;
 	padding-left: 10px;
-        background-image: url(/resources-equations/images/page_level/h3_bak.png);
+        background-image: url(/resources/images/page_level/h3_bak.png);
 }
 
 #main_content h4 {

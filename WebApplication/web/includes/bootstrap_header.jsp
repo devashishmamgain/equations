@@ -19,16 +19,16 @@ if (userSession != null && userSession.getEqUser() != null) {
 session.setAttribute("loggedIn", loggedIn);
 %>
 
-    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="../bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/resources-equations/css/menu/main_menu.css" />
+    <link href="/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/resources/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/resources/css/menu/main_menu.css" />
 <div style="position: relative;
     width: 90%;
     margin:auto;
     height: 125px;
     background-repeat: repeat-x;
     background-color: #ffffff;
-    background-image: url(/resources-equations/images/menu/header.png);
+    background-image: url(/resources/images/menu/header.png);
     background-position: right;">
     <div id="main_logo"></div>
     <script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&lang=en"></script>
@@ -81,8 +81,6 @@ session.setAttribute("loggedIn", loggedIn);
             </div><!--/.nav-collapse -->
           </div><!-- /.navbar-inner -->
         </div><!-- /.navbar -->           
-    <script  type="text/javascript"  src="../bootstrap/js/jquery.js"></script>
-    <script  type="text/javascript"  src="../bootstrap/js/bootstrap.js"></script>
-    <script  type="text/javascript"  src="../bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../bootstrap/js/bootstrap-dropdown.js"></script>
+    <script  type="text/javascript"  src="/resources/js/lib/jquery-1.10.2.min.js"></script>
+    <script  type="text/javascript"  src="/resources/bootstrap/js/bootstrap.min.js"></script>
 

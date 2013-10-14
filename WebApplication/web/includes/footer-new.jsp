@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="/resources/css/contents/bottom.css" />
+<link rel="stylesheet" type="text/css" href="/resources/css/content/bottom.css" />
 <div id="bottom_snippet">
     <div id="bottom_snippet_right">
         <div id="botton_snippet_left">

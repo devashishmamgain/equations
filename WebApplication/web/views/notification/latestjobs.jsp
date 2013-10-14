@@ -10,9 +10,9 @@
 <html>
     <head>
         <title>Job Openings</title>
-        <link rel="stylesheet" type="text/css" href="/resources-equations/css/main.css" />
+        <link rel="stylesheet" type="text/css" href="/resources/css/main.css" />
         <link rel="stylesheet" type="text/css" href="/resources-equations/scripts/css/jquery-ui-1.8.1.custom.css" />
-        <link rel="stylesheet" type="text/css" href="/resources-equations/css/grid.css" />
+        <link rel="stylesheet" type="text/css" href="/resources/css/grid.css" />
 
         <script type="text/javascript" src="/resources-equations/scripts/js/jquery-1.4.2.min.js"></script>
         <script type="text/javascript" src="/resources-equations/scripts/js/jquery-ui-1.8.1.custom.min.js"></script>
