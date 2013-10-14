@@ -6,24 +6,20 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-   "http://www.w3.org/TR/html4/loose.dtd">
+    "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Home Page</title>
+        <title>Equations</title>
+        <jsp:include page = "/includes/resources_top.html" />   
     </head>
-    <body style="margin: 0;padding: 0;">
-        <div style="width:90%; height:170px; margin:auto; position:relative;">
-            <jsp:include page = "/includes/header.jsp" />
-        </div>
-        <div style="width:90%; height:auto; margin:auto; position:relative;">
-            <jsp:include page = "/includes/home.html" />
+    <body>
+        <jsp:include page = "/includes/header.jsp" />
 
-        </div>
-        <div style="width:90%; height:120px; margin:auto; position:relative;">
-            <jsp:include page = "/includes/footer.jsp" />
+        <jsp:include page = "/includes/home.html" />
 
-        </div>
+        <jsp:include page = "/includes/footer.jsp" />
+
     </body>
 </html>
