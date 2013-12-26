@@ -4,7 +4,7 @@
     Author     : AASHISH
 --%>
 
-
+<link href="hd.css" rel="stylesheet" type="text/css">
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@page import="in.co.equations.modules.session.*" %>
 
@@ -41,7 +41,7 @@
                 <li><a href="#contact">Contact</a></li>
                
                 
-                <input type ="submit" value="Login" onClick ="window.location = '_ah/login?continue0=%2FloginSubmit.page'" style ="float: right;"/><br/>
+                <input type ="submit" class ="log" value="Login" onClick ="window.location = '_ah/login?continue0=%2FloginSubmit.page'" style ="float: right;"/><br/>
                 
                 <c:if test="${loggedIn == 'true'}">             
                     <li class="dropdown">
