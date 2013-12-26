@@ -63,8 +63,8 @@
                         </ul>
                     </li>
                 </ul>
-                    <input type ="submit" value="Login" onClick ="window.location = '_ah/login?continue0=%2FloginSubmit.page'" />
             </c:if>
+             <input type ="submit" value="Login" onClick ="window.location = '_ah/login?continue0=%2FloginSubmit.page'" />
         </div><!--/.nav-collapse -->
     </div><!-- /.navbar-inner -->
 </div><!-- /.navbar -->           
