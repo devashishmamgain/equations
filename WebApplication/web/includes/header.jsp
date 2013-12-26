@@ -41,7 +41,7 @@
                 <li><a href="#contact">Contact</a></li>
                
                 
-                <input type ="submit" class ="log" value="Login" onClick ="window.location = '_ah/login?continue0=%2FloginSubmit.page'" class ="pull-right"/><br/>
+                <input type ="submit" class ="pull-right" value="Login" onClick ="window.location = '_ah/login?continue0=%2FloginSubmit.page'" /><br/>
                 
                 <c:if test="${loggedIn == 'true'}">             
                     <li class="dropdown">
