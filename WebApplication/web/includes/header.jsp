@@ -3,11 +3,8 @@
     Created on : Aug 22, 2013, 2:16:18 PM
     Author     : AASHISH
 --%>
-<script>
-$("#lgn").click(function(){
-  document.location.href = 'login.page';
-});
-</script>
+
+
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@page import="in.co.equations.modules.session.*" %>
 
