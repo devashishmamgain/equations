@@ -3,7 +3,11 @@
     Created on : Aug 22, 2013, 2:16:18 PM
     Author     : AASHISH
 --%>
-
+<script>
+$("#lgn").click(function(){
+  location.href = "login.page";
+});
+</script>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@page import="in.co.equations.modules.session.*" %>
 
@@ -39,7 +43,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
                
-                <input type ="submit" value="Login" align ="right" /><br/>
+                <input type ="submit" value="Login" id ="lgn" align ="right" /><br/>
 
                 <c:if test="${loggedIn == 'true'}">             
                     <li class="dropdown">
