@@ -5,7 +5,7 @@
 --%>
 <script>
 $("#lgn").click(function(){
-  location.href = "login.page";
+  document.location.href = 'login.page';
 });
 </script>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
