@@ -18,7 +18,8 @@
 
     session.setAttribute("loggedIn", loggedIn);
 %>
-
+Login: <input type ="text" name ="txt"> <br/>
+Password: <input type ="text" name ="psswrd"> <br/>
 <div class="navbar navbar-inverse">
     <div class="navbar-inner" >
         <!--
