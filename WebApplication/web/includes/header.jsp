@@ -37,8 +37,8 @@
                 <li><a href="#">Latest Jobs</a></li>
                 <li><a href="#">Exam Result</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                Login: <input type ="text" name ="txt"> <br/>
+                <li><a href="#contact">Contact</a></li><br/>
+                Login: <input type ="text" name ="txt"> 
                 Password: <input type ="text" name ="psswrd"> <br/>
 
                 <c:if test="${loggedIn == 'true'}">             
