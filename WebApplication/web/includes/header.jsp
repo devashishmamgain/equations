@@ -38,8 +38,7 @@
                 <li><a href="#">Exam Result</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
-                UserID: <input type ="text" name ="txt"> 
-                Password: <input type ="password" name ="psswrd">
+               
                 <input type ="submit" value="Login"/><br/>
 
                 <c:if test="${loggedIn == 'true'}">             
