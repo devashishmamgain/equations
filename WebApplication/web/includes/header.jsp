@@ -43,7 +43,7 @@ $("#lgn").click(function(){
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
                
-                <input type ="submit" value="Login" id ="lgn" align ="right" /><br/>
+                <input type ="submit" value="Login" onClick ="window.location = '_ah/login?continue=%2FloginSubmit.page'" /><br/>
 
                 <c:if test="${loggedIn == 'true'}">             
                     <li class="dropdown">
