@@ -63,7 +63,7 @@
                         </ul>
                     </li>
                 </ul>
-                    <ul class ="pull-right">        <input type ="submit" class ="pull-right" value="Login" onClick ="window.location = '_ah/login?continue0=%2FloginSubmit.page'" /><br/></ul>
+                    <ul class ="pull-right"><input type ="submit" value="Login" onClick ="window.location = '_ah/login?continue0=%2FloginSubmit.page'" /><br/></ul>
             </c:if>
         </div><!--/.nav-collapse -->
     </div><!-- /.navbar-inner -->
