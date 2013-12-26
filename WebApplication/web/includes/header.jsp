@@ -40,9 +40,9 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
                
-                <p align ="right">
-                <input type ="submit" value="Login" onClick ="window.location = '_ah/login?continue0=%2FloginSubmit.page'" /><br/>
-                </p>
+                
+                <input type ="submit" value="Login" onClick ="window.location = '_ah/login?continue0=%2FloginSubmit.page'" align ="right"/><br/>
+                
                 <c:if test="${loggedIn == 'true'}">             
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
