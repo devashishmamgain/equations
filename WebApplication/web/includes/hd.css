@@ -1,0 +1,16 @@
+/* 
+    Document   : hd
+    Created on : Dec 26, 2013, 6:00:16 PM
+    Author     : Prachi Parashar
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+.log
+{
+    float: right;
+}
+
