@@ -18,8 +18,7 @@
 
     session.setAttribute("loggedIn", loggedIn);
 %>
-Login: <input type ="text" name ="txt"> <br/>
-Password: <input type ="text" name ="psswrd"> <br/>
+
 <div class="navbar navbar-inverse">
     <div class="navbar-inner" >
         <!--
@@ -39,6 +38,8 @@ Password: <input type ="text" name ="psswrd"> <br/>
                 <li><a href="#">Exam Result</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
+                Login: <input type ="text" name ="txt"> <br/>
+                Password: <input type ="text" name ="psswrd"> <br/>
 
                 <c:if test="${loggedIn == 'true'}">             
                     <li class="dropdown">
