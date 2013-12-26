@@ -39,7 +39,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
                
-                <input type ="submit" value="Login" align =" "right"/><br/>
+                <input type ="submit" value="Login" align ="right" /><br/>
 
                 <c:if test="${loggedIn == 'true'}">             
                     <li class="dropdown">
