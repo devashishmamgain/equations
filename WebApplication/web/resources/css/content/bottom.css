@@ -1,3 +1,15 @@
+#bottom_snippet_up
+{
+    color: #C0C0C0;
+    height: 100px;
+    position: relative;
+}
+#bottom_snippet_down
+{
+    color: #00000f;
+    height: 20px;
+    position: relative;
+}
 #bottom_snippet #bottom_snippet_right a{
     margin-top: 40px;
     padding: 5px;
@@ -7,7 +19,7 @@
     font-family: Arial,Helvetica,sans-serif;
     text-decoration: none;
     border-left-width: 1px;
-    border-left-color: #cccccc;
+    border-left-color: #C0C0C0;
     border-left-style: solid;
     border-right: none;
 }
@@ -20,19 +32,19 @@
     font-family: Arial,Helvetica,sans-serif;
     text-decoration: none;
     border-left-width: 1px;
-    border-left-color: #cccccc;
+    border-left-color: #c0c0c0;
     border-left-style: solid;
 }
 
 #bottom_snippet #bottom_snippet_right a:visited {
     margin-top: 40px;
     padding: 5px;
-    color: #ffffff;
+    color: #c0c0c0;
     text-align: justify;
     font-family: Arial,Helvetica,sans-serif;
     text-decoration: none;
     border-left-width: 1px;
-    border-left-color: #cccccc;
+    border-left-color: #c0c0c0;
     border-left-style: solid;
 }
 
@@ -46,7 +58,7 @@ text-decoration: underline;
     background-color: #83c7da;
     height: 100px;
     float: left;
-    color: #000000;
+    color: #c0c0c0;
     text-align: left;
     background-image: url(/resources/images/menu/bottom.png);
     background-repeat: repeat-x;
@@ -65,14 +77,4 @@ text-decoration: underline;
 
 #bottom_snippet #bottom_snippet_right img{
     position: relative;
-}
-#bottom_snippet_up
-{
-    color: #C0C0C0;
-    height: 100px;
-}
-#bottom_snippet_down
-{
-    color: #00000f;
-    height: 20px;
 }
