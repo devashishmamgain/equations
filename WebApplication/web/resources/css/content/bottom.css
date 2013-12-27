@@ -66,3 +66,13 @@ text-decoration: underline;
 #bottom_snippet #bottom_snippet_right img{
     position: relative;
 }
+#bottom_snippet_up
+{
+    color: #C0C0C0;
+    height: 100px;
+}
+#bottom_snippet_down
+{
+    color: #000000;
+    height: 20px;
+}

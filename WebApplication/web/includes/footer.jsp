@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css" href="/resources/css/content/bottom.css" />
-<link rel="stylesheet" type="text/css" href="/includes/ftr.css"/>
+
 <div id="bottom_snippet">
     <div id="bottom_snippet_up">
         <div id="bottom_snippet_right">
