@@ -24,7 +24,11 @@
                     </tbody>
              </table>
            </div>
-            <div id="bottom_links">
+            
+        </div>
+    </div>
+    <div id ="bottom_snippet_down"> 
+       <div id="bottom_links">
                 <a href='/views/home.jsp' class="menu_home">Home</a>
                 <a href='/views/courses.jsp' class="menu_courses">Courses</a>
                 <a href='/views/faculty.jsp' class="menu_faculty">Faculty</a>
@@ -36,10 +40,6 @@
                 <a href='/views/contactus.jsp' class="menu_contactus">Contact us</a>
                 <a href='/views/aboutus.jsp' class="menu_aboutus">About Us</a>
             </div>
-        </div>
-    </div>
-    <div id ="bottom_snippet_down"> 
-       
     </div>
 </div>
 
