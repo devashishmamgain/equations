@@ -4,7 +4,8 @@
     Author     : AASHISH
 --%>
 
-<link href="hd.css" rel="stylesheet" type="text/css">
+<link href="/includes/hd.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="/resources/css/content/bottom.css" />
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@page import="in.co.equations.modules.session.*" %>
 
