@@ -1,7 +1,7 @@
-<link rel="stylesheet" type="text/css" href="/resources/css/content/bottom.css" />
+
 
 <div id="bottom_snippet">
-    <div id="bottom_snippet_up">
+    <div id="bottom_snippet_up"> 
         <div id="bottom_snippet_right">
             <div id="botton_snippet_left">
                 <table border="0">
@@ -38,11 +38,15 @@
             </div>
         </div>
     </div>
-    <div id ="bottom_snippet_down">
+    <div id ="bottom_snippet_down"> 
        
     </div>
 </div>
 
 <script type="text/javascript">
-    $(".${param.menu}").addClass('active');
+    $(document).ready(function() {
+        //Something is wrong with this expression, most likely because of $ in jsp expression and same is for jquery, need to recheck it.
+       // $(".${param.menu}").addClass('active');
+    });
+    
 </script>
