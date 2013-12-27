@@ -44,7 +44,7 @@ text-decoration: underline;
     width: 100%;
     position: relative;
     background-color: #83c7da;
-    height: 120px;
+    height: 100px;
     float: left;
     color: #000000;
     text-align: left;
@@ -55,7 +55,7 @@ text-decoration: underline;
 #bottom_snippet #bottom_snippet_right #botton_snippet_left {
     width: 30%;
     position: relative;
-    height: 120px;
+    height: 100px;
     float: left;
     font-size: 80%;
     color: #ffffff;
