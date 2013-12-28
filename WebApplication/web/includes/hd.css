@@ -12,5 +12,6 @@ root {
 .log
 {
     float: right;
+    padding-left: 50px;
 }
 
