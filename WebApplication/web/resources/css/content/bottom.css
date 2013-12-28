@@ -10,6 +10,10 @@
     height: 20px;
     position: relative;
 }
+.fb-like
+{
+    padding: 10px
+}
 #bottom_snippet #bottom_snippet_right a{
     margin-top: 40px;
     padding: 5px;
