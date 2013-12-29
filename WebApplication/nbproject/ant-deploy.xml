@@ -3,7 +3,7 @@
 
     <!-- Google App Engine Properties -->
     <property name="appengine.location" value="F:\softwares\appengine-java-sdk-1.8.5"/>
-    <property name="appengine.http.port" value="8080"/>
+    <property name="appengine.http.port" value="8084"/>
     <property name="appengine.debug.port" value="8765"/>
 
     <!-- Import Google App Engine Macros -->

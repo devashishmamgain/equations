@@ -1,53 +1,4 @@
 
-<script src="http://www.google.com/uds/api?file=uds.js&v=1.0&key=YOURKEYHERE" type="text/javascript"></script>
-
-<script language="Javascript" type="text/javascript">
-
- 
-
- //<![CDATA[
-
- 
-
- 
-
-     // Create a search control
-
- 
-
-     var searchControl = new GSearchControl();
-
- 
-
-     // create a search object
-
- 
-
-     searchControl.addSearcher(new GwebSearch());
-
- 
-
-     // tell Google where to draw the searchbox
-
- 
-
-     searchControl.draw(document.getElementById("search-box"));
-
- 
-
-   
-
- 
-
-   GSearch.setOnLoadCallback(OnLoad);
-
- 
-
-  //]]>
-
- 
-
-</script>
 <div id="fb-root"></div>
 
 <div id="bottom_snippet">
@@ -76,7 +27,7 @@
            </div>
             
             <img id ="image" src="/resources/images/logos/logo1.png" height="100" width="200"/>
-            <div id="search-box"></div>
+            <div id="search-box"> </div>
         </div>
         
     </div>
