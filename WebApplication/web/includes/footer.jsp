@@ -25,7 +25,7 @@
                     </tbody>
              </table>
            </div>
-            <div class="fb-like" data-href="https://www.facebook.com/equations.centreofexcellence" data-layout="standard" data-action="like" data-show-faces="true" data-share="true" ></div>
+            
         </div>
         
     </div>
