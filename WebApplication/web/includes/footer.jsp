@@ -25,9 +25,8 @@
                     </tbody>
              </table>
            </div>
-            
         </div>
-        
+        <img src="logo.png" height="50" width="60"/>
     </div>
     <div id ="bottom_snippet_down"> 
        <div id="bottom_links">
