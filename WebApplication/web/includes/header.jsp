@@ -23,6 +23,7 @@
 
 <div class="navbar navbar-inverse">
     <div class="navbar-inner" >
+        <img id ="image" src="/resources/images/logos/logo1.png" height="100" width="200"/>
         <!--
         <a class="brand" href="#">Equations</a>
         -->
@@ -64,6 +65,7 @@
                         </ul>
                     </li>
                 </ul>
+                    
             </c:if>
              <input type ="submit" id="logn" value="Login" onClick ="window.location = '_ah/login?continue0=%2FloginSubmit.page'" style="margin-right: 10px;"/>
         </div><!--/.nav-collapse -->
