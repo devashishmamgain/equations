@@ -32,7 +32,7 @@
             <!-- Read about Bootstrap dropdowns at http://twbs.github.com/bootstrap/javascript.html#dropdowns -->
            
             <ul class="nav">
-                 <img id ="image" src="/resources/images/logos/logo1.png" height="100" width="300"/>
+                <li><img id ="image" src="/resources/images/logos/logo1.png" height="100" width="300"/></li>
                 <li class="active"><a href='/views/home.jsp'>Home</a></li>
                 <li><a href='/views/courses.jsp'>Courses</a></li>
                 <li><a href='/views/faculty.jsp'>Faculty</a></li>
