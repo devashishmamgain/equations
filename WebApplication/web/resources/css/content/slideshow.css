@@ -18,6 +18,7 @@
     background-repeat:repeat-x;
     min-height: 500px;
     background-color: #e8e8e8;
+    margin-left: 100px;
 }
 
 .foo li{
