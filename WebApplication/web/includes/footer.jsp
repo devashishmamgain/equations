@@ -76,6 +76,7 @@
            </div>
             
             <img id ="image" src="/resources/images/logos/logo1.png" height="100" width="200"/>
+            <div id="search-box"></div>
         </div>
         
     </div>
