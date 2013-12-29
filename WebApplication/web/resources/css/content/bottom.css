@@ -89,6 +89,14 @@ text-decoration: underline;
 {
     margin-top: 5px;
     margin-left: 100px;
+    padding:8px 10px 8px 10px;
+transition:0.2s all ease;
+-webkit-transition:0.2s all ease;/*for Chrome and Safari*/
+-o-transition:0.2s all ease;/*For Opera*/
+-ms-transition:0.2s all ease;/*For I.E.*/
+-moz-transition:0.2s all ease;/*For Mozilla*/
+opacity:0.9;
+border:none;
 }
 #search-box
 {
