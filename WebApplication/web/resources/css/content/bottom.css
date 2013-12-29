@@ -101,6 +101,7 @@ width: 190px;
 background-color:#FE2E2E;
 border-left:4px solid #FE2E2E;
 color:white;
+position: relative;
 }
 #search-box
 {
