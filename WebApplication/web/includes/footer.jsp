@@ -25,7 +25,7 @@
                     </tbody>
              </table>
            </div>
-            <img id ="image" src="/resources/images/logos/logo1.png" height="50" width="60"/>
+            <img id ="image" src="/resources/images/logos/logo1.png" height="100" width="600"/>
         </div>
         
     </div>
