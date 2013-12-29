@@ -93,4 +93,5 @@ text-decoration: underline;
 #search-box
 {
     width: 10px;
+    float: right;
 }
