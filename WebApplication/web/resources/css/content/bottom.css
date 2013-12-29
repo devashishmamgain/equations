@@ -90,3 +90,7 @@ text-decoration: underline;
     margin-top: 5px;
     margin-left: 100px;
 }
+#search-box
+{
+    width: 10px;
+}
