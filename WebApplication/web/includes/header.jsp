@@ -4,7 +4,7 @@
     Author     : AASHISH
 --%>
 
-<link href="/includes/hd.css" rel="stylesheet" type="text/css">
+
 <link rel="stylesheet" type="text/css" href="/resources/css/content/bottom.css" />
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@page import="in.co.equations.modules.session.*" %>
@@ -65,7 +65,7 @@
                     </li>
                 </ul>
             </c:if>
-             <input type ="submit" class="log" value="Login" onClick ="window.location = '_ah/login?continue0=%2FloginSubmit.page'" style="margin-right: 10px;"/>
+             <input type ="submit" id="logn" value="Login" onClick ="window.location = '_ah/login?continue0=%2FloginSubmit.page'" style="margin-right: 10px;"/>
         </div><!--/.nav-collapse -->
     </div><!-- /.navbar-inner -->
 </div><!-- /.navbar -->           
