@@ -43,7 +43,7 @@
                 <li><a href="#">Exam Result</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
-               
+                <li><input type ="submit" id="logn" value="Login" onClick ="window.location = '_ah/login?continue0=%2FloginSubmit.page'" style="margin-right: 10px;"/></li>
                 
                 
                 
@@ -69,7 +69,7 @@
                 </ul>
                     
             </c:if>
-             <input type ="submit" id="logn" value="Login" onClick ="window.location = '_ah/login?continue0=%2FloginSubmit.page'" style="margin-right: 10px;"/>
+             
         </div><!--/.nav-collapse -->
     </div><!-- /.navbar-inner -->
 </div><!-- /.navbar -->           
