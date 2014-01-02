@@ -87,7 +87,7 @@ text-decoration: underline;
 }
 #logn
 {
-    margin-top: 2px;
+    margin-top: 40px;
     margin-left: 50px;
     padding:8px 10px 8px 10px;
 transition:0.2s all ease;
@@ -102,8 +102,7 @@ background-color:#FE2E2E;
 border-left:4px solid #FE2E2E;
 color:white;
 position: relative;
-margin-left: 800px;
- 
+margin-left: 800px; 
 }
 #search-box
 {
