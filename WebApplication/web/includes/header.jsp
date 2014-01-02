@@ -22,6 +22,8 @@
 %>
 
 <div class="navbar navbar-inverse">
+    <input type ="submit" id="logn" value="Login" onClick ="window.location = '_ah/login?continue0=%2FloginSubmit.page';" style="margin-right: 10px;"/>
+                
     <div class="navbar-inner" >
          <img id ="image" src="/resources/images/logos/logo1.png" height="100" width="300"/>
         
@@ -44,8 +46,7 @@
                 <li><a href="#">Exam Result</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
-               <input type ="submit" id="logn" value="Login" onClick ="window.location = '_ah/login?continue0=%2FloginSubmit.page';" style="margin-right: 10px;"/>
-                
+               
                 
                 
                 
