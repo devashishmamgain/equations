@@ -28,7 +28,7 @@
         <!--
         <a class="brand" href="#">Equations</a>
         -->
-        <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+        <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed within .navbar-collapse.collapse. -->
         <div class="nav-collapse collapse">   
             <!-- Read about Bootstrap dropdowns at http://twbs.github.com/bootstrap/javascript.html#dropdowns -->
            
@@ -44,7 +44,7 @@
                 <li><a href="#">Exam Result</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><input type ="submit" id="logn" value="Login" onClick ="window.location = '_ah/login?continue0=%2FloginSubmit.page';" style="margin-right: 10px;"/></li>
+               <input type ="submit" id="logn" value="Login" onClick ="window.location = '_ah/login?continue0=%2FloginSubmit.page';" style="margin-right: 10px;"/>
                 
                 
                 
