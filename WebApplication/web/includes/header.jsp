@@ -23,17 +23,16 @@
 
 <div class="navbar navbar-inverse">
     <div class="navbar-inner" >
-         <img id ="image" src="/resources/images/logos/logo1.png" height="100" width="200"/>
-        
         <!--
         <a class="brand" href="#">Equations</a>
         -->
         <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed within .navbar-collapse.collapse. -->
         <div class="nav-collapse collapse">   
             <!-- Read about Bootstrap dropdowns at http://twbs.github.com/bootstrap/javascript.html#dropdowns -->
-           
+      <img id ="image" class="pull-left" src="/resources/images/logos/logo1.png" height="40px" width="140px"/>
+  
             <ul class="nav">
-               
+
                 <li class="active"><a href='/views/home.jsp'>Home</a></li>
                 <li><a href='/views/courses.jsp'>Courses</a></li>
                 <li><a href='/views/faculty.jsp'>Faculty</a></li>
@@ -44,11 +43,10 @@
                 <li><a href="#">Exam Result</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><input type ="submit" id="logn" value="Login" onClick ="window.location = '_ah/login?continue0=%2FloginSubmit.page';" style="margin-right: 10px;"/></li>
-               
-                
-                
-                
+
+
+
+
                 <c:if test="${loggedIn == 'true'}">             
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
@@ -68,10 +66,14 @@
                             <li><a href="#">Sign Out</a></li>
                         </ul>
                     </li>
-                </ul>
-                    
-            </c:if>
-             
+                </c:if>
+
+            </ul>
+
+            <ul class="pull-right"> 
+                <li><input class="btn btn-primary" type="submit" id="logn" value="Login" onclick="window.location = '_ah/login?continue0=%2FloginSubmit.page';" style="margin-right: 10px;"></li>
+            </ul>
+
         </div><!--/.nav-collapse -->
     </div><!-- /.navbar-inner -->
 </div><!-- /.navbar -->           
