@@ -71,6 +71,10 @@ text-decoration: underline;
     background-repeat: repeat-x;
 }
 
+.nav
+{
+    margin-top: 30px;
+}
 #bottom_snippet #bottom_snippet_right #botton_snippet_left {
     width: 30%;
     position: relative;
