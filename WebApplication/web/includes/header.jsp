@@ -29,20 +29,20 @@
         <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed within .navbar-collapse.collapse. -->
         <div class="nav-collapse collapse">   
             <!-- Read about Bootstrap dropdowns at http://twbs.github.com/bootstrap/javascript.html#dropdowns -->
-      <img id ="image" class="pull-left" src="/resources/images/logos/logo1.png" height="40px" width="140px"/>
+      <img id ="image" class="pull-left" src="/resources/images/logos/logo1.png" height="20px" width="140px"/>
   
             <ul class="nav">
 
                 <li class="active"><a href='/views/home.jsp'>Home</a></li>
-                <li><a href='/views/courses.jsp'>Courses</a></li>
-                <li><a href='/views/faculty.jsp'>Faculty</a></li>
-                <li><a href='/views/mission.jsp'>Mission</a></li>
-                <li><a href="">Teaching Methodology</a></li>
-                <li><a href="#">Enquiry/Feedback</a></li>
-                <li><a href="#">Latest Jobs</a></li>
-                <li><a href="#">Exam Result</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li class="courses"><a href='/views/courses.jsp'>Courses</a></li>
+                <li class="faculty"><a href='/views/faculty.jsp'>Faculty</a></li>
+                <li class="mission"><a href='/views/mission.jsp'>Mission</a></li>
+                <li class="teaching"><a href="">Teaching Methodology</a></li>
+                <li class="enq"><a href="#">Enquiry/Feedback</a></li>
+                <li class="latst"><a href="#">Latest Jobs</a></li>
+                <li class="exam"><a href="#">Exam Result</a></li>
+                <li class="about"><a href="#about">About</a></li>
+                <li class="contact"><a href="#contact">Contact</a></li>
 
 
 
