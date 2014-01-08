@@ -70,7 +70,7 @@ text-decoration: underline;
     background-image: url(/resources/images/menu/bottom.png);
     background-repeat: repeat-x;
 }
-.active
+/*.active
 {
     margin-top: 30px;
 }
@@ -109,7 +109,7 @@ text-decoration: underline;
 .contact
 {
     margin-top: 30px;
-}
+}*/
 #bottom_snippet #bottom_snippet_right #botton_snippet_left {
     width: 30%;
     position: relative;
@@ -203,5 +203,5 @@ margin-top: 30px;
 }
 .navbar-inner
 {
-    height: 70px;
+    height: 60px;
 }
