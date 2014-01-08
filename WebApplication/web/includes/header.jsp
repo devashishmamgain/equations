@@ -33,7 +33,7 @@
   
             <ul class="nav">
 
-                <li class="active"><a href='/views/home.jsp'>Home</a></li>
+                <li class="active" id ="home"><a href='/views/home.jsp'>Home</a></li>
                 <li class="courses"><a href='/views/courses.jsp'>Courses</a></li>
                 <li class="faculty"><a href='/views/faculty.jsp'>Faculty</a></li>
                 <li class="mission"><a href='/views/mission.jsp'>Mission</a></li>
