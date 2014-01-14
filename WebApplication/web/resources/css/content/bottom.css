@@ -81,6 +81,9 @@ text-decoration: underline;
     background-image: url(/resources/images/menu/bottom.png);
     background-repeat: repeat-x;
 }
+#bottom_snippet_left{
+    margin-left: 30px;
+}
 
 #bottom_snippet #bottom_snippet_right img{
     position: relative;
