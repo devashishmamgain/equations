@@ -81,7 +81,7 @@ text-decoration: underline;
     background-image: url(/resources/images/menu/bottom.png);
     background-repeat: repeat-x;
 }
-#bottom_snippet_left{
+table{
     margin-left: 30px;
 }
 
