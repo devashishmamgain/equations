@@ -48,7 +48,7 @@
 #bottom_snippet #bottom_snippet_right a:visited {
     margin-top: 40px;
     padding: 5px;
-    color: #c0c0c0;
+    /*color: #c0c0c0;*/
     text-align: justify;
     font-family: Arial,Helvetica,sans-serif;
     text-decoration: none;
