@@ -3,7 +3,7 @@
     background-color: #C0C0C0;
     height: 120px;
     position: relative;
-    background-image:url('\resources\images\footer.png');
+    background-image:url('footer.png');
 }
 #bottom_snippet_down
 {
