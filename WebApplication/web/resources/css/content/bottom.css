@@ -69,8 +69,9 @@ text-decoration: underline;
     float: left;
     /*color: #c0c0c0;*/
     text-align: left;
+    background-image: url(/resources/css/content/footer.png);
     /*background-image: url(/resources/images/menu/bottom.png);*/
-    background-repeat: repeat-x;
+    /*background-repeat: repeat-x;*/
 }
 
 #bottom_snippet #bottom_snippet_right #botton_snippet_left {
