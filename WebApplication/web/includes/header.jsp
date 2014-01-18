@@ -29,7 +29,7 @@
         <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed within .navbar-collapse.collapse. -->
         <div class="nav-collapse collapse">   
             <!-- Read about Bootstrap dropdowns at http://twbs.github.com/bootstrap/javascript.html#dropdowns -->
-      <img id ="image" class="pull-left" src="/resources/images/logos/logo1.png" height="20px" width="140px"/>
+      <img id ="image" class="pull-left" src="/resources/images/logos/logo1.png" height="24px" width="140px"/>
   
             <ul class="nav">
 
