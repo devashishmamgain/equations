@@ -81,7 +81,7 @@ text-decoration: underline;
     float: left;
     font-size: 80%;
     color: #ffffff;
-    background-image: url(/resources/css/content/footer.png);
+    background-image: url('/resources/css/content/footer.png');
     /*background-image: url(/resources/images/menu/bottom.png);*/
     /*background-repeat: repeat-x;*/
 }
