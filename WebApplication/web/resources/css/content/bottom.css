@@ -82,7 +82,7 @@ text-decoration: underline;
     color: #ffffff;
     background-image: url(/resources/css/content/footer.png);
     /*background-image: url(/resources/images/menu/bottom.png);*/
-    background-repeat: repeat-x;
+    /*background-repeat: repeat-x;*/
 }
 table{
     margin-left: 40%;
