@@ -5,6 +5,7 @@
     position: relative;
     background-image:url(/resources/css/content/footer.png);
     background-repeat: no-repeat;
+    background-size: 70%;
 }
 #bottom_snippet_down
 {
