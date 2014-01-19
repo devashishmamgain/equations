@@ -6,6 +6,7 @@
     background-image: url(/resources/css/content/footer.png);
     background-repeat: no-repeat;
     background-size: 99%;
+    opacity: 0.3;
 }
 #bottom_snippet_down
 {
