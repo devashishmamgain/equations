@@ -3,6 +3,7 @@
    /* background-color: #C0C0C0;*/
     height: 120px;
     position: relative;
+    background-image: url(/resources/css/content/footer.png);
 }
 #bottom_snippet_down
 {
@@ -68,9 +69,9 @@ text-decoration: underline;
     float: left;
     /*color: #c0c0c0;*/
     text-align: left;
-    background-image: url(/resources/css/content/footer.png);
+    
     /*background-image: url(/resources/images/menu/bottom.png);*/
-    background-repeat: no-repeat;
+    
 }
 
 #bottom_snippet #bottom_snippet_right #botton_snippet_left {
@@ -80,10 +81,9 @@ text-decoration: underline;
     float: left;
     font-size: 80%;
     color: #ffffff;
-    background-image: url(/resources/css/content/footer.png);
+    
     /*background-image: url(/resources/images/menu/bottom.png);*/
-    background-repeat: no-repeat;
-}
+    }
 table{
     margin-left: 40%;
 }
