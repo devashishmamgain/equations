@@ -4,6 +4,7 @@
     height: 120px;
     position: relative;
     background-image:url(/resources/css/content/footer.png);
+    background-repeat: no-repeat;
 }
 #bottom_snippet_down
 {
