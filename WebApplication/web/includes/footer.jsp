@@ -3,8 +3,8 @@
 
 <div id="bottom_snippet">
     <div id="bottom_snippet_up"> 
-        <div id="bottom_snippet_right">
-            <div id="botton_snippet_left">
+       
+           
                 <table border="0">
                     <tbody>
                         <tr>
@@ -23,13 +23,7 @@
                                 Uttarakhand</td>
                         </tr>
                     </tbody>
-             </table>
-           </div>
-            
-            
-            <div id="search-box"> </div>
-        </div>
-        
+                </table>
     </div>
     <div id ="bottom_snippet_down"> 
        <div id="bottom_links">
