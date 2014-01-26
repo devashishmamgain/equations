@@ -120,53 +120,63 @@ font-family: Comic Sans MS;*/
 }
 .menu_home
 {
-    margin-left: 10px;
+    margin-left: 30px;
     margin-top: 30px;
+    position: relative;
 }
 .menu_courses
 {
     margin-left: 10px;
     margin-top: 30px;
+    position: relative;
 }
 .menu_faculty
 {
     margin-left: 10px;
     margin-top: 30px;
+    position: relative;
 }
 .menu_mission
 {
     margin-left: 10px;
     margin-top: 30px;
+    position: relative;
 }
 .menu_latestjobs
 {
     margin-left: 10px;
     margin-top: 40px;
+    position: relative;
 }
 .menu_aboutus
 {
     margin-left: 10px;
     margin-top: 30px;
+    position: relative;
 }
 .menu_teaching
 {
     margin-left: 10px;
     margin-top: 30px;
+    position: relative;
 }
 .menu_examresults
 {
     margin-left: 10px;
     margin-top: 30px;
+    position: relative;
 }
 .menu_enquiry
 {
     margin-left: 10px;
     margin-top: 30px;
+    position: relative;
 }
 .menu_contactus
 {
     margin-left: 10px;
     margin-top: 30px;
+    position: relative;
 }
 .navbar-inner
 {
